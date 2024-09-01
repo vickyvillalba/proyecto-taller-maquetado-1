@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face{
+    font-family: droidSerifBold;
+    src: url(droid-serif/DroidSerif-Bold.ttf)
+}
+ 
+@font-face{
+    font-family: droidSerifBoldItalic;
+    src: url(droid-serif/DroidSerif-BoldItalic.ttf)
+}
+
+@font-face{
+    font-family: droidSerifItalic;
+    src: url(droid-serif/DroidSerif-BoldItalic.ttf)
+}
+
+@font-face{
+    font-family: droidSerif;
+    src: url(droid-serif/DroidSerif.ttf)
+}
+
+/*OPEN SANS*/
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800*/
+
+/*.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}*/
+
+header{
+    border: 3px solid blue;
+    background-color: white;
+    display: flex;
+    height: 12%;
+    
+}
+
+.logoTexto{
+    border: 3px solid orangered;
+    display: flex;
+    width: 35%;
+}
+
+#logo{
+    border: 3px solid red;
+    font-family: droidSerif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+#floriaHeader{
+    border: 3px solid rgb(67, 11, 11);
+    font-family: droidSerif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+
+
+
+nav{
+    border: 3px solid orange;
+    width: 65%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    border: 3px solid yellow;
+    width: 50%;
+    margin-right: 15%; 
+    font-family: "Open Sans" , sans-serif;
+    font-size: 0.8em;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;     
+
+}
+
+.eslider{
+    /*hay que cortar la imagen pq queda grande para que ocupe el total de la pantalla en altura*/
+    border: 3px solid green;
+    width: 100%;
+    height: auto;
+}
