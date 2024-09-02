@@ -102,3 +102,40 @@ nav ul {
     width: 100%;
     height: auto;
 }
+
+.chicos{
+    font-family: "Open Sans";
+    font-size: 0.6em;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulos{
+    font-family: droidSerif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trios{
+    border: 3px solid orange;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tercio{
+    border: 3px solid pink;
+}
+
+.imgTercio {
+    border: 3px solid red;
+}
+
+.subtitulos{
+    font-family: droidSerif;
+    font-size: 1em;
+    font-weight: lighter;
+}
