@@ -41,6 +41,61 @@
     "wdth" 100;
 }*/
 
+/*CLASES ÚTILES*/
+
+.w100{
+    width:100%;
+}
+
+
+.w78{
+    width: 78%;
+}
+
+.w32{
+    width: 32%;
+}
+
+
+.spaceb{
+    justify-content: space-between;
+}
+
+.df{
+    display: flex;
+}
+
+.secciones{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 3px solid purple;  
+}
+
+.chicos{ /*textos chiquitos de colores*/
+    font-family: "Open Sans";
+    font-size: 0.6em;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+
+.titulos{
+    font-family: droidSerif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subtitulos{
+    font-family: droidSerif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+/*FIN CLASES ÚTILES*/
+
+
+/*HEADER*/
 header{
     border: 3px solid blue;
     background-color: white;
@@ -73,8 +128,6 @@ header{
     margin-left: 2%;
 }
 
-
-
 nav{
     border: 3px solid orange;
     width: 65%;
@@ -93,30 +146,15 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;     
-
 }
 
+/*FIN HEADER*/ 
+
+
 .eslider{
-    /*hay que cortar la imagen pq queda grande para que ocupe el total de la pantalla en altura*/
     border: 3px solid green;
     width: 100%;
     height: auto;
-}
-
-.chicos{
-    font-family: "Open Sans";
-    font-size: 0.6em;
-    color: gray;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.titulos{
-    font-family: droidSerif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .trios{
@@ -124,18 +162,84 @@ nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 66em;   
 }
 
 .tercio{
     border: 3px solid pink;
+    height: 40%;
 }
 
 .imgTercio {
     border: 3px solid red;
 }
 
-.subtitulos{
-    font-family: droidSerif;
+/*textos chicos de colores*/ 
+
+.mobile{
+    color: #9fbf73;
+}
+
+.branding{
+    color: #e7759c;
+}
+
+.website{
+    color: #e9aa70;
+}
+
+
+/*BOTONES*/
+
+.botones {
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botonesHomeNaranja {
+    background-color: orange;
+    border: none; 
+    padding: 14px;
+    margin-right: 0.6em;
+}
+
+.botonesHomeNaranja a {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
     font-size: 1em;
-    font-weight: lighter;
+
+}
+
+.botonesHomeWhite{
+    background-color: white;
+    border: 0.01em solid grey; 
+    padding: 14px;
+    margin-left: 0.6em;
+}
+
+.botonesHomeWhite a{
+    color: black;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1em;
+}
+
+
+.cifras{
+    border: 2px solid lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+/*SECTION "MUST HAVE"*/
+.stylish{
+    color: #888888;
 }
