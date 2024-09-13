@@ -57,7 +57,7 @@
 }
 
 .vh100{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .vh40{
@@ -132,10 +132,21 @@
     display: flex;
 }
 
-.tituloPrincipal{
-
+.w25{
+    width: 25%;
 }
 
+.w75{
+    width: 75%;
+}
+
+.w50{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
 /*FIN CLASES ÚTILES*/
 
 
@@ -196,6 +207,10 @@ nav ul {
 
 /*FIN HEADER*/ 
 
+main section{
+    margin: 0 auto;
+    margin-bottom: 1.4em;
+}
 
 .eslider{
     border: 3px solid green;
@@ -434,7 +449,7 @@ nav ul {
 
 .servicioss{
     border: 3px solid green;
-    height: 60%;
+    min-height: 60%;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -451,6 +466,16 @@ nav ul {
     font-weight: 500;
     color: grey;
 }
+
+
+.fotos4 img{
+    object-fit: cover;
+}
+
+.fotos4 div:nth-of-type(1)figure:nth-of-type(1){
+    border: 3px solid rgb(255, 0, 200);
+    width: 90%;
+} /*ARREGLAR ESTO!!*/
 
 
 
