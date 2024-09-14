@@ -60,8 +60,12 @@
     min-height: 100vh;
 }
 
-.vh40{
-    min-height: 40vh;
+.vh60{
+    min-height: 60vh;
+}
+
+.vh{
+    min-height: 50vh;
 }
 
 .df{
@@ -86,6 +90,12 @@
     font-size: 2em;
     font-weight: 100;
     /*flex-direction: row;*/
+}
+
+.titIntermedio{
+    font-family: droidSerif;
+    font-size: 1.3em;
+    font-weight: 100;
 }
 
 .subtitulos{
@@ -115,6 +125,10 @@
 
 .spaceb{
     justify-content: space-between;
+}
+
+.spacea{
+    justify-content: space-around;
 }
 
 .fStart{
@@ -147,6 +161,13 @@
 img{
     width: 100%;
 }
+
+.redondita{
+    width: 2.5em;
+    border-radius: 40em;
+}
+
+
 /*FIN CLASES ÚTILES*/
 
 
