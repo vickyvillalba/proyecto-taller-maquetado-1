@@ -83,6 +83,8 @@
     font-family: "Open Sans";
     font-size: 0.6em;
     text-transform: uppercase;
+    margin-top: 1.4em;
+    margin-bottom: 1em;
 }
 
 .titulos{
@@ -139,8 +141,9 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
-
-
+.textCenter{
+    text-align: center;
+}
 
 .columna, .centerX, .centerY, .spaceb, .fStart, .fEnd, .titulos, .secciones{
     display: flex;
@@ -165,6 +168,8 @@ img{
 .redondita{
     width: 2.5em;
     border-radius: 40em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 
@@ -243,6 +248,7 @@ main section{
 
 .portfolio{
     justify-content: center;
+    text-align: center;
 }
 
 .trios{
@@ -266,20 +272,14 @@ main section{
 
 .mobile{
     color: #9fbf73;
-    margin-top: 1.4em;
-    margin-bottom: 1.4em;
 }
 
 .branding{
     color: #e7759c;
-    margin-top: 1.4em;
-    margin-bottom: 1.4em;
 }
 
 .website{
     color: #e9aa70;
-    margin-top: 1.4em;
-    margin-bottom: 1.4em;
 }
 
 
@@ -325,6 +325,10 @@ main section{
 
 .cifras{
     border: 2px solid lightblue;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 5em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -341,7 +345,7 @@ main section{
 }
 .firma{
     margin-top: 1.6em;
-    width: 16em;
+    width: 12em;
 }
 .imagen{
     width: 50%;
@@ -357,11 +361,8 @@ main section{
     align-items: center;
 }
 .must{
-    margin-bottom: 2em;
-    line-height: 1.8em;
-}
-.parrafo{
-    /*FALTA AGREGAR LA TIPOGRAFÍA*/
+    margin-bottom:0.6em;
+    line-height: 1.2em;
 }
 
 /*SECTION "SIMPLE"*/
@@ -371,6 +372,20 @@ main section{
     justify-content: center;
     align-items: center;
 }
+.lineaGris{
+    border: 1.2px solid #f6f6f6;
+    width: 6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.divSimple{
+    border: 2px solid pink;
+    height: 20em;
+    width: 34em;
+    text-align: center;
+}
+
 
 /*SECTION "POWERFUL"*/
 .powerful{
@@ -422,8 +437,10 @@ main section{
 }
 
 .lineaNaranja1{
-    border: 1px solid orange;
-    width: 7em;
+    border: 1.2px solid orange;
+    width: 6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .redonda{
@@ -488,7 +505,14 @@ main section{
     color: grey;
 }
 
+/*FROM OUR BLOG*/
+.design{
+    color: #9689ce; 
+}
 
+
+
+/*ABOUT.HTML*/
 .fotos4 img{
     object-fit: cover;
 }
