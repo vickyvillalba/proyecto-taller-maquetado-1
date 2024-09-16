@@ -47,6 +47,9 @@
     width:100%;
 }
 
+.w90{
+    width: 90%;
+}
 
 .w78{
     width: 78%;
@@ -172,6 +175,14 @@ img{
     margin-left: 1em;
     margin-right: 1em;
 }
+
+.divisor{
+    border-right: 0.2px solid grey;
+    margin-left: 1em;
+    height: 1.5em;
+}
+
+
 
 
 /*FIN CLASES ÚTILES*/
@@ -491,12 +502,14 @@ main section{
     min-height: 60%;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .servicio{
     border: 3px solid yellow;
     display: flex;
     width: 30%;
+    height: 80%;
 }
 
 .parrafitos{
@@ -504,6 +517,28 @@ main section{
     font-size: 0.65em;
     font-weight: 500;
     color: grey;
+}
+
+.botonAbierto{
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.colorNegro{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.redondel{
+    border-radius: 50%;
+    border: 1px solid rgb(189, 188, 188);
+}
+
+.vectores{
+    padding: 1em;
 }
 
 /*FROM OUR BLOG*/
