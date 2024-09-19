@@ -182,6 +182,30 @@ img{
     height: 1.5em;
 }
 
+.bordeVioleta{
+    border: 3px solid purple;
+}
+
+.bordeVerde{
+    border:  3px solid green;
+}
+
+.bordeNaranja{
+    border: 3px solid orange;
+}
+
+.marginLeft07{
+    margin-left: 0.7em;
+}
+
+.posicionAb{
+    position: absolute;
+}
+
+.posicionRel{
+    position: relative;
+}
+
 
 
 
@@ -511,7 +535,7 @@ main section{
     border: 3px solid yellow;
     display: flex;
     width: 30%;
-    height: 80%;
+    height: 8em;
 }
 
 .parrafitos{
@@ -549,32 +573,12 @@ main section{
 }
 
 /*FOOTER*/
-/*footer{
-    background-color: black;
-}*/
-
-/*.floriaBlanco{
-    font-family: droidSerif;
-    font-weight: 100;
-    font-size: 1em;
-    color: white;
-}*/
 
 .lineaGris{
     border-bottom: 0.001px solid rgb(210, 209, 209);
 }
 
-.bordeVioleta{
-    border: 3px solid purple;
-}
 
-.bordeVerde{
-    border:  3px solid green;
-}
-
-.bordeNaranja{
-    border: 3px solid orange;
-}
 
 
 
