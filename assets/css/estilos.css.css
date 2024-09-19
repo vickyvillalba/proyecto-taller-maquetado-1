@@ -71,6 +71,14 @@
     min-height: 50vh;
 }
 
+.h20{
+    height: 20em;
+}
+
+.h100{
+    height: 100%;
+}
+
 
 .df{
     display: flex;
@@ -89,6 +97,7 @@
     text-transform: uppercase;
     margin-top: 1.4em;
     margin-bottom: 1em;
+    letter-spacing: 0.2em;
 }
 
 .titulos{
@@ -161,6 +170,10 @@
     width: 75%;
 }
 
+.w23{
+    width: 23%;
+}
+
 .w50{
     width: 50%;
 }
@@ -206,6 +219,9 @@ img{
     position: relative;
 }
 
+.objFit{
+    object-fit: cover;
+}
 
 
 
@@ -413,7 +429,6 @@ main section{
 .lineaGris{
     border: 1.2px solid #f6f6f6;
     width: 6em;
-    margin-top: 1em;
     margin-bottom: 1em;
 }
 
@@ -422,6 +437,11 @@ main section{
     height: 20em;
     width: 34em;
     text-align: center;
+}
+.cuadradoGris{
+    border:7px solid #f6f6f6;
+    height: 16em;
+    width: 24em;
 }
 
 
