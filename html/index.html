@@ -12,27 +12,21 @@
 
     <header>
 
-        <!--Logo + texto-->
-        <div class="logoTexto">
-            <div id="logo"> 
+        <div class="logoTexto df centerX centerY marginLeft5">
+            <div class="df"> 
                 <figure> 
                     <a href="index.html"><img src="/assets/imgs/logo.svg" alt="logo"></a>  
                 </figure>
             </div>
-        
-
-            <div id="floriaHeader"> 
-                <a href="index.html"></a>FLORIA</a>
-            </div>
+            <a class="subtitulos separarLetras marginLeft1" href="index.html">FLORIA</a>
 
             <div class="divisor"></div>
-
-            <p class="chicos">Ui floria template</p>
+            <p class="chicos marginLeft1">Ui floria template</p>
 
         </div>
 
-        <nav>
-            <ul>
+        <nav class="df centerX centerY">
+            <ul class="df centerX centerY spacea parrafos">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Portfolio</a></li>
@@ -46,32 +40,34 @@
     <main>
  
         <!--SLIDER-->
-        <section class="posicionRel">
+        <section>
+
+            <div class="posicionRel">
             <img class="eslider" src="/assets/imgs/bolsa-plantas.jpg" alt= "bolsa plantas" width="" height="">
-
-            <div class="posicionAb">
-                <h3>Design & Branding</h3>
-                <h1>We are Floria Agency</h1>
-                <p>How you write your advertising copy will be based on where you will place your ad. If it’s a billboard ad, you’ll need a super catchy headline.</p>
             </div>
+
+            <div>
+                <h3 class="chicos">Design & Branding</h3>
+                <h1 class="titPrincipal">We are Floria Agency</h1>
+                <p class="parrafos">How you write your advertising copy will be based on where you will place your ad. If it’s a billboard ad, you’ll need a super catchy headline.</p>
+            </div>
+
+            <button class="botonBanner"><a class="" href="index.html">See Our Works</a></button>
+            
         </section>
+          
+        <!--SOME OF OUR WORKS-->
 
-        <br>
-
-        
-
-              
-        <section class="trios w78 spaceb">
+        <section class="trios w78 df spaceb">
 
        
-            <div class="w100 df portfolio">
-                <div>
+            <div class="w100 df columna centerX centerY">
+                <div class="df columna centerX centerY textCenter">
                     <h4 class="chicos">PORTFOLIO</h4>
                     <h2 class="titulos">Some of our works</h2>
                     <div class="lineaNaranja1"></div>
                 </div>
             </div>
-            <!--acá iría una línea naranja-->
 
             <article class="w32 tercio"> <!--fotos con sus titulos-->
                 <figure class="imgTercio">
@@ -122,7 +118,7 @@
             </article>
 
                     <!--BOTONES-->
-    <div class="botones w100">
+    <div class="botones w100 marginTop4">
         <button class="botonesHomeNaranja">
             <a href="">See All Works</a>
         </button>
@@ -132,28 +128,36 @@
         </button>
     </div>
 
-    <section class="cifras w100">
+    <section class="w100 marginTop4 df columna centerX centerY altura12 spaceb">
+
+        <div class="w100 granDivisor"></div>
+
+        <div class="df w75 spaceb">
         
-        <div class="cifra">
+        <div class="df columna centerY">
         <p class="titulos">100+</p>
         <h4 class="chicos">Projects Completed</h4>
         </div>
 
-        <div class="cifra">
+        <div class="df columna centerY">
         <p class="titulos">30+</p>
         <h4 class="chicos">Happy clients</h4>
         </div>
 
-        <div class="cifra">
+        <div class="df columna centerY">
         <p class="titulos">7+</p>
         <h4 class="chicos">Years Expierence</h4>
         </div>
 
                 
-        <div class="cifra">
+        <div class="df columna centerY">
         <p class="titulos">4</p>
         <h4 class="chicos">Team Members</h4>
         </div>
+
+        </div>
+
+        <div class="w100 granDivisor"></div>
 
     </section>
 
@@ -209,21 +213,26 @@
                 </figure>
             </div>
 
-            <div class="texto">
+            <div class="texto bordeNaranja df columna spaceb h24">
                 <h4 class="chicos">Minimalist Look</h4>
                 <h2 class="titulos"><strong>Powerful</strong> UI Kit Template</h2>
                 <div class="lineaNaranja1"></div>
                 <p class="parrafos">How you write your advertising copy will be based on where you will place your ad. If it’s a billboard ad, you’ll need a super catchy headline.</p>
                 <br>
-                <ul>
-                    <li>Beautifully Designed</li>
-                    <li>100% Responsive Layouts</li>
-                    <li>CMS Content</li>
+                <ul class="marginLeft3">
+                    <li class="items parrafos">Beautifully Designed</li>
+                    <li class="items parrafos">100% Responsive Layouts</li>
+                    <li class="items parrafos">CMS Content</li>
                 </ul>
+                <button class="botonesHomeNaranja"><a href="index.html">Get your template!</a></button>
             </div>
         </section>
 
-        <section class="secciones grupoLogos w78 df"> <!--marcas-->
+        <section class="secciones w78 df centerX centerY"> 
+            
+            <div class="w100 granDivisor"></div>
+
+            <div class="grupoLogos df centerX centerY w100 ">
         
             <figure>
                 <img class="logos" src="/assets/imgs/logos/logoAven.png" alt="aven">
@@ -248,6 +257,9 @@
             <figure>
                 <img class="logos" src="/assets/imgs/logos/logoCircle.png" alt="aven">
             </figure>
+            </div>
+
+            <div class="w100 granDivisor"></div>
 
         </section>
 
@@ -262,7 +274,7 @@
                 <div class="lineaNaranja1"></div>
             </div>
 
-            <div class="sophiaAllison posicionRel">
+            <div class="sophiaAllison">
                 <div class="cuadradoNaranja"></div>
                 
                     <figure>
@@ -283,7 +295,7 @@
 
         <section class="w78 vh100">
 
-        <div class="serviceProvide">
+        <div class="df columna serviceProvide">
             <h4 class="chicos">How Can We Help</h4>
             <h2 class="titulos">Services We Can Provide</h2>
         </div>
@@ -300,7 +312,7 @@
                 <div class="bordeVioleta df columna spacea marginLeft07">
                 <h2 class="subtitulos">Beautifully Designed</h2>
                 <p class="parrafitos">Magazine advertising is the most versatile, but this is solely dependent on the size of your ad and how many other ads compete with yours.</p>
-                <a class="botonAbierto colorNegro" href="home.html">Learn More</a>
+                <a class="botonAbierto bottomNegro" href="home.html">Learn More</a>
                 </div>
 
             </article>
@@ -315,7 +327,7 @@
                 <div class="bordeVioleta df columna spacea marginLeft07">
                 <h2 class="subtitulos">100% Responsive</h2>
                 <p class="parrafitos">Magazine advertising is the most versatile, but this is solely dependent on the size of your ad and how many other ads compete with yours.</p>
-                <a class="botonAbierto colorNegro" href="home.html">Learn More</a>
+                <a class="botonAbierto bottomNegro" href="home.html">Learn More</a>
             </div>
             </article>
 
@@ -329,7 +341,7 @@
                 <div class="bordeVioleta df columna spacea marginLeft07">
                 <h2 class="subtitulos">Smooth Animations</h2>
                 <p class="parrafitos">Magazine advertising is the most versatile, but this is solely dependent on the size of your ad and how many other ads compete with yours.</p>
-                <a class="botonAbierto colorNegro" href="home.html">Learn More</a>
+                <a class="botonAbierto bottomNegro" href="home.html">Learn More</a>
             </div>
             </article>
 
@@ -343,7 +355,7 @@
                 <div class="bordeVioleta df columna spacea marginLeft07">
                 <h2 class="subtitulos">CMS Content</h2>
                 <p class="parrafitos">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult.</p>
-                <a class="botonAbierto colorNegro" href="home.html">Learn More</a>
+                <a class="botonAbierto bottomNegro" href="home.html">Learn More</a>
                 </div>
             </article>
 
@@ -357,7 +369,7 @@
                 <div class="bordeVioleta df columna spacea marginLeft07">
                 <h2 class="subtitulos">Pack of Components</h2>
                 <p class="parrafitos">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult.</p>
-                <a class="botonAbierto colorNegro" href="home.html">Learn More</a>
+                <a class="botonAbierto bottomNegro" href="home.html">Learn More</a>
                 </div>
 
             </article>
@@ -373,7 +385,7 @@
                 <div class="bordeVioleta df columna spacea marginLeft07">
                 <h2 class="subtitulos">Friendly Support</h2>
                 <p class="parrafitos">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult.</p>
-                <a class="botonAbierto colorNegro" href="home.html">Learn More</a>
+                <a class="botonAbierto bottomNegro" href="home.html">Learn More</a>
                 </div>
 
             </article>
@@ -436,29 +448,40 @@
 
         <!--LETS GET IN TOUCH-->
 
-        <section class="w78">
-            <h3>Let’s Get in Touch</h3>
-            <div class="lineaNaranja05"></div>
-            <p class="parrafos">Magazine advertising is the most versatile, but this is solely dependent on the size of your ad and how many other ads.</p>
-            <a class="botonAbierto" href="email.com">EMAIL@FLORIA.COM</a>
-            <!--íconos-->
+        <section class="w78 section cajaBordeGris vh80 df">
+            <div class="bordeNaranja df columna w32 margin2 spacea h20">
+                <h3 class="titIntermedio">Let’s Get in Touch</h3>
+                <div class="lineaNaranja05"></div>
+                <p class="parrafos">Magazine advertising is the most versatile, but this is solely dependent on the size of your ad and how many other ads.</p>
+                <a class="botonAbierto bottomNegro" href="email.com">EMAIL@FLORIA.COM</a>
+                <!--íconos-->
+            </div>
+            <div class="bordeRojo df columna margin2 w50 spacea">
             <!--formulario-->
-            <button class="botonesHomeNaranja">Submit Message</button>
+                <form class="df columna" action="/index.html">
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                    <input type="email" id="email" name="email" placeholder="Email address">
+                    <input type="tel" id="phone" name="phone" placeholder="Contact Phone">
+                    <input type="textarea" id="description" name="description" placeholder="Describe your project...">
+                </form>
+
+                <button class="botonesHomeNaranja">Submit Message</button>
+            </div>
         </section>
 
         <!--FROM OUR BLOG-->
 
-        <section class="w78 df columna">
+        <section class="w78 df columna bordeNaranja vh100 spacea">
 
-            <div class="df columna centerX centerY">
+            <div class="df columna centerX centerY spaceb bordeVioleta">
                 <h4 class="chicos">Latest Posts</h4>
                 <h2 class="titulos">From Our Blog</h2>
-                <div></div> <!--linea negra-->
+                <div class="lineaNegra"></div> 
             </div>
 
             <div class="df spaceb">
 
-                <article class="w32">
+                <article class="w32 bordeRojo">
                     <figure>
                         <img src="/assets/imgs/libros-lampara-rara.jpg" alt="cuadro que dice today is awesome, con lampara rara">
                     </figure>
@@ -468,17 +491,23 @@
                         <p class="parrafos">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action.</p>
                     </div>
 
+                    <div class="lineaTercio"></div>
+
                     <div class="centerX centerY">
+                        
                         <p class="chicos">jan 25, 2019</p>
                         <figure>
                             <img  class="redondita" src="/assets/imgs/hombre-azul-1.jpg" alt="">
                         </figure>
                         <p class="chicos">John Davidson</p>
+                        
                     </div>
+
+                    <div class="lineaTercio"></div>
 
                 </article>
 
-                <article class="w32">
+                <article class="w32 bordeRojo">
                     <figure>
                         <img src="/assets/imgs/pochoclos-jean.jpg" alt=" persona comiendo pochoclos">
                     </figure>
@@ -488,6 +517,8 @@
                         <p class="parrafos">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action.</p>
                     </div>
 
+                    <div class="lineaTercio"></div>
+
                     <div class="centerX centerY">
                         <p class="chicos">jan 18, 2019</p>
                         <figure>
@@ -496,9 +527,11 @@
                         <p class="chicos">Christina Parker</p>
                     </div>
 
+                    <div class="lineaTercio"></div>
+
                 </article>
 
-                <article class="w32">
+                <article class="w32 bordeRojo">
                     <figure>
                         <img src="/assets/imgs/notebook-flores-rosas.jpg" alt="notebook con flores rosas">
                     </figure>
@@ -508,6 +541,8 @@
                         <p class="parrafos">A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action.</p>
                     </div>
 
+                    <div class="lineaTercio"></div>
+
                     <div class="centerX centerY">
                         <p class="chicos">jan 10, 2019</p>
                         <figure>
@@ -515,6 +550,8 @@
                         </figure>
                         <p class="chicos">Pameka Riley</p>
                     </div>
+
+                    <div class="lineaTercio"></div>
 
                 </article>
 
@@ -529,24 +566,24 @@
     
     <!--FOOTER-->
 
-    <footer class="vh60 columna centerX centerY ">
+    <footer class="vh60 df columna centerX centerY spacea">
         
         <div class="df bordeVioleta w78 fStart ">
+
             <div class="w32">
         <h3 class="floriaBlanco subtitulos colorBlanco">FLORIA</h3>
             </div>
-            <div class="w32">
+
+            <div class="w80 df fEnd spaceb">
         <p class="subtitulos colorBlanco">Subscribe to our newsletter</p>
-            </div>
-        <!--formulario-->
-        <div>
+
         <form class="colorBlanco" action="/index.html">
-            <label class="parrafos colorBlanco" for="yname">Your Name</label>
-            <input type="text" id="yname" name="yname">
-            <label class="parrafos colorBlanco" for="email">Email Address</label>
-            <input type="text" id="email" name="email">
+            <input type="text" id="yname" name="yname" placeholder="Your name">
+            <input type="email" id="email" name="email" placeholder="Email address">
+            <input type="submit" value="submit"> <!--esto lleva un gráfico-->
         </form>
         </div>
+
         </div>
 
         <div class="bordeVioleta df w78">
@@ -614,7 +651,7 @@
 
         </div>
 
-        <div class="lineaGris "></div> <!--linea gris-->
+        <div class="granDivisor w78"></div> <!--linea gris-->
 
         <div class="df bordeVioleta w78">
 

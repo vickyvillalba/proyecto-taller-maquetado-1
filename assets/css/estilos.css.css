@@ -67,8 +67,28 @@
     width: 32%;
 }
 
+.w25{
+    width: 25%;
+}
+
+.w75{
+    width: 75%;
+}
+
+.w23{
+    width: 23%;
+}
+
+.w50{
+    width: 50%;
+}
+
 .vh100{
     min-height: 100vh;
+}
+
+.vh80{
+    min-height: 80vh;
 }
 
 .vh60{
@@ -83,10 +103,13 @@
     height: 20em;
 }
 
+.h24{
+    height: 24em;
+}
+
 .h100{
     height: 100%;
 }
-
 
 .df{
     display: flex;
@@ -106,6 +129,11 @@
     margin-top: 1.4em;
     margin-bottom: 1em;
     letter-spacing: 0.2em;
+}
+
+.titPrincipal{
+    font-family: droidSerif;
+    font-size: 3.5em;
 }
 
 .titulos{
@@ -130,7 +158,6 @@
 .parrafos{
     font-family: "Open Sans";
     font-size: 0.8em;
-    color: grey;
     line-height: 1.7em;
 }
 
@@ -180,22 +207,6 @@
     display: flex;
 }
 
-.w25{
-    width: 25%;
-}
-
-.w75{
-    width: 75%;
-}
-
-.w23{
-    width: 23%;
-}
-
-.w50{
-    width: 50%;
-}
-
 .altura12{
     height: 12em;
 }
@@ -237,8 +248,20 @@ img{
     margin-left: 0.7em;
 }
 
+.marginLeft1{
+    margin-left: 1em;
+}
+
+.marginLeft3{
+    margin-left: 3em;
+}
+
 .marginLeft5{
     margin-left: 7em;
+}
+
+.marginTop4{
+    margin-top: 4em;
 }
 
 .posicionAb{
@@ -253,67 +276,41 @@ img{
     object-fit: cover;
 }
 
+.separarLetras{
+    letter-spacing: 0.25em;
+}
 
+.granDivisor{
+    border: 0.1px solid rgb(206, 205, 205);
+}
+
+.items{
+    list-style: disc;
+}
 
 /*FIN CLASES ÚTILES*/
 
-
 /*HEADER*/
 header{
-    border: 3px solid blue;
     background-color: white;
     display: flex;
     height: 12%;
-    
-    padding: 1em 0em;
-    
+    padding: 1em 0em; 
 }
 
 .logoTexto{
-    border: 3px solid orangered;
-    display: flex;
     width: 35%;
 }
 
-#logo{
-    border: 3px solid red;
-    font-family: droidSerif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30%;
-}
-
-#floriaHeader{
-    border: 3px solid rgb(67, 11, 11);
-    font-family: droidSerif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2%;
-}
-
 nav{
-    border: 3px solid orange;
     width: 65%;
-    display: flex;  
-    align-items: center;
-    justify-content: center;
 }
 
 nav ul {
-    display: flex;
-    border: 3px solid yellow;
-    width: 50%;
-    margin-right: 15%; 
-    font-family: "Open Sans" , sans-serif;
-    font-size: 0.8em;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;     
+    width: 50%;     
 }
 
-/*FIN HEADER*/ 
+/*MAIN*/ 
 
 main section{
     margin: 0 auto;
@@ -327,25 +324,31 @@ main section{
     object-fit: cover;
 }
 
+.botonBanner{
+    background-color: rgb(186, 185, 185); /*está en gris para verlo*/
+    font-family: "Open Sans";
+    border: none;
+    padding: 14px;
+    margin-right: 0.6em;
+}
+
+.botonBanner a{
+    font-weight: 600;
+}
+
 
 /*PORTFOLIO*/ 
 
-.portfolio{
-    justify-content: center;
-    text-align: center;
-}
-
 .trios{
     border: 3px solid orange;
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    height: 70em;   
+    min-height: 70em;   
 }
 
 .tercio{
     border: 3px solid pink;
     height: 40%;
+    margin-top: 4em;
 }
 
 .imgTercio {
@@ -370,7 +373,6 @@ main section{
 /*BOTONES*/
 
 .botones {
-    border: 3px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -381,6 +383,7 @@ main section{
     border: none; 
     padding: 14px;
     margin-right: 0.6em;
+    width: fit-content;
 }
 
 .botonesHomeNaranja a {
@@ -393,7 +396,7 @@ main section{
 
 .botonesHomeWhite{
     background-color: white;
-    border: 0.01em solid grey; 
+    border: 0.01em solid rgb(199, 198, 198); 
     padding: 14px;
     margin-left: 0.6em;
 }
@@ -405,18 +408,18 @@ main section{
     font-size: 1em;
 }
 
-/*NUMEROS*/
-
-.cifras{
-    border: 2px solid lightblue;
-    margin-top: 5em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin-bottom: 5em;
-    display: flex;
-    justify-content: center;
+.botonAbierto{
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    width: fit-content;
 }
 
+.bottomNegro{
+    color: black;
+    border-bottom: 1px solid black;
+}
 
 /*SECTION "MUST HAVE"*/
 .stylish{
@@ -442,7 +445,6 @@ main section{
     border: 2px solid purple;
     height: 25em;
     align-items: center;
-    margin-top: 7em; /*buscar una solucion mejor*/
 }
 .must{
     margin-bottom:0.6em;
@@ -485,17 +487,11 @@ main section{
 /*SECTION LOGOS*/
 
 .grupoLogos{
-    border: 3px solid blue;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     height: 10em;
     justify-content: space-around;
-
 }
 
 .logos {
-    border: 3px solid lightblue;
     width: 7em;
 }
 
@@ -564,17 +560,25 @@ main section{
     align-items: center;
 }
 
+/*LETS GET IN TOUCH*/
+
+.cajaBordeGris{
+    border: 1px solid grey;
+}
+
+.margin2{
+    margin: 4em;
+}
+
 /*SERVICES WE CAN PROVIDE*/
 
 .serviceProvide{
-    border: 3px solid greenyellow;
-    height: 20%;
-    display: flex;
-    flex-direction: column;
+    /*border: 3px solid greenyellow;*/
+    min-height: 20%;
 }
 
 .servicioss{
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     min-height: 60%;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -582,25 +586,10 @@ main section{
 }
 
 .servicio{
-    border: 3px solid yellow;
+    /*border: 3px solid yellow;*/
     display: flex;
-    width: 30%;
-    height: 8em;
-}
-
-
-
-.botonAbierto{
-    font-family: "Open Sans";
-    text-transform: uppercase;
-    font-size: 0.7em;
-    font-weight: 600;
-    width: fit-content;
-}
-
-.colorNegro{
-    color: black;
-    border-bottom: 1px solid black;
+    width: 32%;
+    height: 9em;
 }
 
 .redondel{
@@ -615,6 +604,16 @@ main section{
 /*FROM OUR BLOG*/
 .design{
     color: #9689ce; 
+}
+
+.lineaNegra{
+    border-bottom: 0.1em solid black;
+    width: 6.25em;
+}
+
+.lineaTercio{
+    border-bottom: 0.1em solid rgb(163, 163, 163);
+    width: 100%;
 }
 
 /*FOOTER*/
@@ -639,10 +638,6 @@ footer{
 .colorGris{
     color: gray;
 }
-
-
-
-
 
 /*ABOUT.HTML*/
 .fotos4 img{
