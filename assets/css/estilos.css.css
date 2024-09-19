@@ -51,8 +51,16 @@
     width: 90%;
 }
 
+.w80{
+    width: 80%;
+}
+
 .w78{
     width: 78%;
+}
+
+.w60{
+    width: 60%;
 }
 
 .w32{
@@ -117,6 +125,12 @@
     line-height: 1.7em;
 }
 
+.parrafitos{
+    font-family: "Open Sans";
+    font-size: 0.65em;
+    font-weight: 500;
+}
+
 .columna{
     flex-direction: column;
 }
@@ -135,6 +149,10 @@
 
 .spacea{
     justify-content: space-around;
+}
+
+.spacee{
+    justify-content: space-evenly;
 }
 
 .fStart{
@@ -163,6 +181,10 @@
 
 .w50{
     width: 50%;
+}
+
+.altura12{
+    height: 12em;
 }
 
 img{
@@ -194,8 +216,16 @@ img{
     border: 3px solid orange;
 }
 
+.bordeRojo{
+    border: 3px solid red;
+}
+
 .marginLeft07{
     margin-left: 0.7em;
+}
+
+.marginLeft5{
+    margin-left: 7em;
 }
 
 .posicionAb{
@@ -411,7 +441,7 @@ main section{
     align-items: center;
 }
 .lineaGris{
-    border: 1.2px solid #f6f6f6;
+    border: 1.2px solid #bfbfbf;
     width: 6em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -538,12 +568,7 @@ main section{
     height: 8em;
 }
 
-.parrafitos{
-    font-family: "Open Sans";
-    font-size: 0.65em;
-    font-weight: 500;
-    color: grey;
-}
+
 
 .botonAbierto{
     font-family: "Open Sans";
@@ -574,10 +599,26 @@ main section{
 
 /*FOOTER*/
 
+footer{
+    background-color: black;
+}
+
 .lineaGris{
     border-bottom: 0.001px solid rgb(210, 209, 209);
 }
 
+.textoFooter{
+    font-family: "Open Sans";
+    font-size: 0.7em;
+}
+
+.colorBlanco{
+    color: white;
+}
+
+.colorGris{
+    color: gray;
+}
 
 
 
