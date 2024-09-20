@@ -63,6 +63,10 @@
     width: 60%;
 }
 
+.w40{
+    width: 40%;
+}
+
 .w32{
     width: 32%;
 }
@@ -252,6 +256,10 @@ img{
     margin-left: 1em;
 }
 
+.marginLeft4{
+    margin-left: 4.5em;
+}
+
 .marginLeft3{
     margin-left: 3em;
 }
@@ -287,6 +295,12 @@ img{
 .items{
     list-style: disc;
 }
+
+.lineaChicaNegra{
+    border-bottom: 2px solid black;
+    width: 2em;
+}
+
 
 /*FIN CLASES ÚTILES*/
 
@@ -499,25 +513,9 @@ main section{
 
 /*CUSTOMERS ABOUT US*/
 
-.custAboutUs{
-    border: 3px solid orange;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
 .custAboutUs strong{
     font-style: italic;
     margin-right: 0.4em;
-}
-
-.testimonials{
-    border: 3px solid brown;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .lineaNaranja1{
@@ -529,35 +527,23 @@ main section{
 
 .redonda{
     width: 5em;
-    border-radius: 40em;
+    border-radius: 50%;
 }
 
 .cuadradoNaranja{
-    width: 8em;
-    height: 10em;
     background-color: #fff7ef;
 }
 
 .parrafoTitulo{
-    border: 3px solid red;
-    width: 56%;
     font-family: droidSerifItalic;
     font-size: 1.5em;
-    text-align: center;
     line-height: 1.7em;
+    text-align: center;
 }
 
 .lineaNaranja05{
     border: 0.5px solid orange;
     width: 7em;
-}
-
-.sophiaAllison{
-    border: 3px solid coral;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 /*LETS GET IN TOUCH*/
@@ -600,6 +586,9 @@ main section{
 .vectores{
     padding: 1em;
 }
+
+/*LETS GET IN TOUCH*/
+
 
 /*FROM OUR BLOG*/
 .design{
