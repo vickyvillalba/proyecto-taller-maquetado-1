@@ -305,16 +305,13 @@ img{
     color: black;
 }
 
-<<<<<<< HEAD
 .lineaChicaNegra{
     border-bottom: 2px solid black;
     width: 2em;
 }
 
 
-=======
   
->>>>>>> 8170c28f7cad241e722035930321f30e49a293cb
 /*FIN CLASES ÚTILES*/
 
 /*HEADER*/
@@ -539,11 +536,9 @@ main section{
 
 /*CUSTOMERS ABOUT US*/
 
-<<<<<<< HEAD
 .custAboutUs strong{
     font-style: italic;
     margin-right: 0.4em;
-=======
 .custAboutUs{
     border: 3px solid orange;
     display: flex;
@@ -558,7 +553,6 @@ main section{
     justify-content: center;
     align-items: center;
 
->>>>>>> 8170c28f7cad241e722035930321f30e49a293cb
 }
 
 .lineaNaranja1{
