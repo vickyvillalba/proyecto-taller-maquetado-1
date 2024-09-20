@@ -1,6 +1,5 @@
 *{
     text-decoration: none;
-    color: black;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -295,13 +294,27 @@ img{
 .items{
     list-style: disc;
 }
+.colorParrafo{
+    color:#888888
+}
+.izq strong{
+    font-style: italic;
+    margin-left: 0.4em;
+}
+.colorNegro{
+    color: black;
+}
 
+<<<<<<< HEAD
 .lineaChicaNegra{
     border-bottom: 2px solid black;
     width: 2em;
 }
 
 
+=======
+  
+>>>>>>> 8170c28f7cad241e722035930321f30e49a293cb
 /*FIN CLASES ÚTILES*/
 
 /*HEADER*/
@@ -323,6 +336,9 @@ nav{
 nav ul {
     width: 50%;     
 }
+nav ul li a:hover{
+    color: #888888;     
+}
 
 /*MAIN*/ 
 
@@ -331,15 +347,21 @@ main section{
     margin-bottom: 1.4em;
 }
 
-.eslider{
-    border: 3px solid green;
-    width: 100%;
-    height: 90%;
-    object-fit: cover;
+.slider{
+    background-image:url("../imgs/bolsa-plantas.jpg");
+    background-position:center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.3);
+    height: 90vh;
+}
+.textoSlider{
+    color: #ffffff;
 }
 
+
 .botonBanner{
-    background-color: rgb(186, 185, 185); /*está en gris para verlo*/
+    background-color: rgb(255, 255, 255); /*está en gris para verlo*/
     font-family: "Open Sans";
     border: none;
     padding: 14px;
@@ -497,6 +519,10 @@ main section{
     height: 25em;
     align-items: center;
 }
+.titulos strong{
+    font-style: italic;
+    margin-right: 0.4em;
+}
 
 /*SECTION LOGOS*/
 
@@ -513,9 +539,26 @@ main section{
 
 /*CUSTOMERS ABOUT US*/
 
+<<<<<<< HEAD
 .custAboutUs strong{
     font-style: italic;
     margin-right: 0.4em;
+=======
+.custAboutUs{
+    border: 3px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.testimonials{
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+>>>>>>> 8170c28f7cad241e722035930321f30e49a293cb
 }
 
 .lineaNaranja1{
@@ -596,7 +639,8 @@ main section{
 }
 
 .lineaNegra{
-    border-bottom: 0.1em solid black;
+    margin-top: 1.4em;
+    border-bottom: 0.16em solid black;
     width: 6.25em;
 }
 
