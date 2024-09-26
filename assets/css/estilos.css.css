@@ -309,9 +309,7 @@ img{
     border-bottom: 2px solid black;
     width: 2em;
 }
-
-
-  
+ 
 /*FIN CLASES ÚTILES*/
 
 /*HEADER*/
@@ -369,7 +367,6 @@ main section{
     font-weight: 600;
 }
 
-
 /*PORTFOLIO*/ 
 
 .trios{
@@ -401,7 +398,6 @@ main section{
 .website{
     color: #e9aa70;
 }
-
 
 /*BOTONES*/
 
@@ -536,14 +532,16 @@ main section{
 
 /*CUSTOMERS ABOUT US*/
 
-.custAboutUs strong{
-    font-style: italic;
-    margin-right: 0.4em;
 .custAboutUs{
     border: 3px solid orange;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.custAboutUs strong{
+    font-style: italic;
+    margin-right: 0.4em;
 }
 
 .testimonials{
