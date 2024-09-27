@@ -102,6 +102,10 @@
     min-height: 50vh;
 }
 
+.hForms{
+    height: 3em;
+}
+
 .h20{
     height: 20em;
 }
@@ -303,12 +307,29 @@ img{
     color: black;
 }
 
+.colorBlanco{
+    color: white;
+}
+
+.colorGris{
+    color: gray;
+}
+
 .lineaChicaNegra{
     border-bottom: 2px solid black;
     width: 2em;
 }
 .italic{
     font-style: italic;
+}
+
+.fontBotones{
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.sinBorde{
+    border: none;
 }
 
  
@@ -352,21 +373,10 @@ main section{
     height: 90vh;
 }
 
-.textoSlider{
-    color: #ffffff;
-}
-
-
 .botonBanner{
-    background-color: rgb(255, 255, 255); /*está en gris para verlo*/
-    font-family: "Open Sans";
-    border: none;
+    background-color: rgb(255, 255, 255);
     padding: 14px;
     margin-right: 0.6em;
-}
-
-.botonBanner a{
-    font-weight: 600;
 }
 
 /*PORTFOLIO*/ 
@@ -401,12 +411,6 @@ main section{
 
 /*BOTONES*/
 
-.botones {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .botonesHomeNaranja {
     background-color: orange;
     border: none; 
@@ -416,11 +420,7 @@ main section{
 }
 
 .botonesHomeNaranja a {
-    color: white;
-    font-family: "Open Sans";
-    font-weight: 600;
     font-size: 1em;
-
 }
 
 .botonesHomeWhite{
@@ -431,9 +431,6 @@ main section{
 }
 
 .botonesHomeWhite a{
-    color: black;
-    font-family: "Open Sans";
-    font-weight: 600;
     font-size: 1em;
 }
 
@@ -517,7 +514,6 @@ main section{
 
 .grupoLogos{
     height: 10em;
-    justify-content: space-around;
 }
 
 .logos {
@@ -526,24 +522,9 @@ main section{
 
 /*CUSTOMERS ABOUT US*/
 
-.custAboutUs{
-    border: 3px solid orange;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
 .custAboutUs strong{
     font-style: italic;
     margin-right: 0.4em;
-}
-
-.testimonials{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .lineaNaranja1{
@@ -593,12 +574,9 @@ main section{
 .servicioss{
     min-height: 60%;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .servicio{
-    display: flex;
     width: 32%;
     height: 9em;
 }
@@ -613,6 +591,15 @@ main section{
 }
 
 /*LETS GET IN TOUCH*/
+
+.fondoForms {
+    background-color: rgba(128, 128, 128, 0.132);
+}
+
+::placeholder{
+    font-family: "Open Sans";
+    font-size: 0.9em;
+}
 
 
 /*FROM OUR BLOG*/
@@ -646,13 +633,6 @@ footer{
     font-size: 0.7em;
 }
 
-.colorBlanco{
-    color: white;
-}
-
-.colorGris{
-    color: gray;
-}
 
 /*ABOUT.HTML*/
 .banner{

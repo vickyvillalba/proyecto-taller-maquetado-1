@@ -42,13 +42,13 @@
         <!--SLIDER-->
         <section class="slider centerX centerY">
             <div class="textCenter bordeNaranja">
-                <div class="textoSlider">
+                <div class="colorBlanco">
                     <h3 class="chicos">Design & Branding</h3>
                     <h1 class="titPrincipal">We are Floria Agency</h1>
                     <p class="parrafos">How you write your advertising copy will be based on where you will place your ad. If it’s a billboard ad, you’ll need a super catchy headline.</p>
                 </div>
 
-                <button class="botonBanner"><a class="colorNegro" href="index.html">See Our Works</a></button>
+                <button class="botonBanner fontBotones sinBorde"><a class="colorNegro" href="index.html">See Our Works</a></button>
             </div>
         </section>
           
@@ -114,13 +114,13 @@
             </article>
 
                     <!--BOTONES-->
-    <div class="botones w100 marginTop4">
-        <button class="botonesHomeNaranja">
-            <a href="">See All Works</a>
+    <div class="botones w100 marginTop4 df centerX centerY">
+        <button class="botonesHomeNaranja fontBotones">
+            <a class="colorBlanco" href="">See All Works</a>
         </button>
 
-        <button class="botonesHomeWhite">
-            <a href="">Contact Us</a>
+        <button class="botonesHomeWhite fontBotones">
+            <a class="colorNegro" href="">Contact Us</a>
         </button>
     </div>
 
@@ -229,7 +229,7 @@
             
             <div class="w100 granDivisor"></div>
 
-            <div class="grupoLogos df centerX centerY w100 ">
+            <div class="grupoLogos df centerX centerY w100 spacea">
         
             <figure>
                 <img class="logos" src="/assets/imgs/logos/logoAven.png" alt="aven">
@@ -264,7 +264,7 @@
 
         <section class="vh100 w78 df columna spacee bordeNaranja">
 
-            <div class="testimonials">
+            <div class="df columna centerX centerY">
                 <h4 class="chicos colorParrafo">Testimonials</h4>
                 <h2 class="titulos"> <strong> Customers </strong> About Us</h2>
                 <!--linea naranja-->
@@ -299,7 +299,7 @@
             <h2 class="titulos"><strong>Services </strong>We Can Provide</h2>
         </div>
 
-        <div class="df servicioss">
+        <div class="df servicioss spacea centerX">
 
             <article class="servicio df">
                 <div class="w50 bordeNaranja">
@@ -474,9 +474,9 @@
 
         <!--LETS GET IN TOUCH-->
 
-        <section class="w78 section cajaBordeGris vh80 df">
+        <section class="w78 section cajaBordeGris vh100 df centerX centerY">
 
-            <div class="bordeNaranja df columna w32 margin2 spacea h20">
+            <div class="bordeNaranja df columna w40 margin2 spacea h24">
                 <h3 class="titIntermedio">Let’s Get in Touch</h3>
                 <div class="lineaNaranja05"></div>
                 <p class="parrafos">Magazine advertising is the most versatile, but this is solely dependent on the size of your ad and how many other ads.</p>
@@ -502,17 +502,23 @@
 
             </div>
 
-
-            <div class="bordeRojo df columna margin2 w50 spacea">
             <!--formulario-->
+            <div class="bordeRojo df columna margin2 w75 spacea h24">
+            
                 <form class="df columna" action="/index.html">
-                    <input type="text" id="name" name="name" placeholder="Your name">
-                    <input type="email" id="email" name="email" placeholder="Email address">
-                    <input type="tel" id="phone" name="phone" placeholder="Contact Phone">
-                    <input type="textarea" id="description" name="description" placeholder="Describe your project...">
+
+                    <div class="df bordeVioleta spacea">
+                    <input class="w40 hForms sinBorde fondoForms" type="text" id="name" name="name" placeholder="Your name">
+                    <input class="w40 hForms sinBorde fondoForms" type="email" id="email" name="email" placeholder="Email address">
+                    </div>
+
+                    <div class="df columna">
+                    <input class="w100 hForms fondoForms" type="tel" id="phone" name="phone" placeholder="Contact Phone">
+                    <input class="sinBorde fondoForms altura12" type="textarea" id="description" name="description" placeholder="Describe your project...">
+                    </div>
                 </form>
 
-                <button class="botonesHomeNaranja">Submit Message</button>
+                <button class="botonesHomeNaranja fontBotones "><a class="colorBlanco" href="">Submit Message</a></button>
             </div>
         </section>
 
@@ -625,7 +631,7 @@
         <p class="subtitulos colorBlanco">Subscribe to our newsletter</p>
 
         <form class="colorBlanco" action="/index.html">
-            <input type="text" id="yname" name="yname" placeholder="Your name">
+            <input class="sinBorde hForms" type="text" id="yname" name="yname" placeholder ="Your name">
             <input type="email" id="email" name="email" placeholder="Email address">
             <input type="submit" value="submit"> <!--esto lleva un gráfico-->
         </form>
