@@ -315,7 +315,6 @@ img{
 /*HEADER*/
 header{
     background-color: white;
-    display: flex;
     height: 12%;
     padding: 1em 0em; 
 }
@@ -526,9 +525,7 @@ main section{
 
 .logos {
     width: 7em;
-}
-
-/*faltan las lineas grises*/ 
+} 
 
 /*CUSTOMERS ABOUT US*/
 
@@ -594,12 +591,10 @@ main section{
 /*SERVICES WE CAN PROVIDE*/
 
 .serviceProvide{
-    /*border: 3px solid greenyellow;*/
     min-height: 20%;
 }
 
 .servicioss{
-    /*border: 3px solid green;*/
     min-height: 60%;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -607,7 +602,6 @@ main section{
 }
 
 .servicio{
-    /*border: 3px solid yellow;*/
     display: flex;
     width: 32%;
     height: 9em;
