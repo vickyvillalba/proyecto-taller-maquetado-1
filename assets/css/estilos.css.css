@@ -122,7 +122,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: 3px solid purple;  
 }
 
 .chicos{ /*textos chiquitos de colores*/
@@ -143,7 +142,6 @@
     font-family: droidSerif;
     font-size: 2em;
     font-weight: 100;
-    /*flex-direction: row;*/
 }
 
 .titIntermedio{
@@ -309,6 +307,10 @@ img{
     border-bottom: 2px solid black;
     width: 2em;
 }
+.italic{
+    font-style: italic;
+}
+
  
 /*FIN CLASES ÚTILES*/
 
@@ -349,6 +351,7 @@ main section{
     background-color: rgba(0,0,0,0.3);
     height: 90vh;
 }
+
 .textoSlider{
     color: #ffffff;
 }
@@ -369,13 +372,11 @@ main section{
 /*PORTFOLIO*/ 
 
 .trios{
-    border: 3px solid orange;
     flex-wrap: wrap;
     min-height: 70em;   
 }
 
 .tercio{
-    border: 3px solid pink;
     height: 40%;
     margin-top: 4em;
 }
@@ -470,7 +471,6 @@ main section{
     width: 100% ;
 }
 .sectionmust{
-    border: 2px solid purple;
     height: 25em;
     align-items: center;
 }
@@ -481,7 +481,6 @@ main section{
 
 /*SECTION "SIMPLE"*/
 .simple{
-    border: 2px solid purple;
     height: 20em;
     justify-content: center;
     align-items: center;
@@ -493,7 +492,6 @@ main section{
 }
 
 .divSimple{
-    border: 2px solid pink;
     height: 20em;
     width: 34em;
     text-align: center;
@@ -507,7 +505,6 @@ main section{
 
 /*SECTION "POWERFUL"*/
 .powerful{
-    border: 2px solid purple;
     height: 25em;
     align-items: center;
 }
@@ -542,7 +539,6 @@ main section{
 }
 
 .testimonials{
-    border: 3px solid brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -659,6 +655,13 @@ footer{
 }
 
 /*ABOUT.HTML*/
+.banner{
+    background-image:url("../imgs/bolsa-plantas.jpg");
+    background-position:center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.3);  
+}
 .fotos4 img{
     object-fit: cover;
 }
