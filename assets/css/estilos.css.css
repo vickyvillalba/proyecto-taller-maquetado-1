@@ -204,6 +204,11 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+.taco{
+    flex-wrap: wrap;
+}
+
 .textCenter{
     text-align: center;
 }
@@ -340,6 +345,9 @@ header{
     background-color: white;
     height: 12%;
     padding: 1em 0em; 
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .logoTexto{
