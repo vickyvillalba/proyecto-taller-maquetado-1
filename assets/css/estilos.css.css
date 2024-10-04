@@ -226,7 +226,7 @@ img{
 }
 
 .redondita{
-    width: 2.5em;
+    width: 2em;
     border-radius: 40em;
     margin-left: 1em;
     margin-right: 1em;
@@ -333,7 +333,35 @@ img{
     font-weight: 600;
 }
 
+/*ÍCONOS*/
+
+.hIconos{
+    height: 2.5em;
+}
+
+/*FORMS*/
+
 .sinBorde{
+    border: none;
+}
+
+.fondoForms {
+    background-color: rgba(128, 128, 128, 0.132);
+}
+
+::placeholder{
+    font-family: "Open Sans";
+    font-size: 0.9em;
+}
+
+input{
+    outline: none; 
+    padding-left: 1.2em;
+}
+
+.submitFlecha{
+    width: 3em;
+    height: 3em;
     border: none;
 }
 
@@ -598,17 +626,8 @@ main section{
     padding: 1em;
 }
 
+
 /*LETS GET IN TOUCH*/
-
-.fondoForms {
-    background-color: rgba(128, 128, 128, 0.132);
-}
-
-::placeholder{
-    font-family: "Open Sans";
-    font-size: 0.9em;
-}
-
 
 /*FROM OUR BLOG*/
 .design{
@@ -629,7 +648,7 @@ main section{
 /*FOOTER*/
 
 footer{
-    background-color: black;
+    background-color: #151515;
 }
 
 .lineaGris{
@@ -641,6 +660,19 @@ footer{
     font-size: 0.7em;
 }
 
+.submitFlecha{
+    background-image: url(/assets/imgs/iconos/flecha.svg) no-repeat;
+}
+
+.navs{
+    height: 15em;
+}
+
+.navs ul{
+    height: 70%;
+    line-height: 1.5em;
+    margin-top: 0.8em;
+}
 
 /*ABOUT.HTML*/
 .banner{
