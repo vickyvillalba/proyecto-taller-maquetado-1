@@ -58,6 +58,10 @@
     width: 78%;
 }
 
+.w66{
+    width: 66%;
+}
+
 .w60{
     width: 60%;
 }
@@ -686,10 +690,25 @@ footer{
     object-fit: cover;
 }
 
-.fotos4 div:nth-of-type(1)figure:nth-of-type(1){
-    border: 3px solid rgb(255, 0, 200);
-    width: 90%;
-} /*ARREGLAR ESTO!!*/
+.galeriaLogos{
+    height: 6em;
+}
+
+.hireUs{
+    height: 4.5em;
+    width: 96%;
+    padding: 2em;
+}
+
+.textoHireUs{
+    font-family: "Open Sans";
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: black;
+}
+
+
 
 
 
