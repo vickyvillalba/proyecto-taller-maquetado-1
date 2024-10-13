@@ -82,6 +82,10 @@
     width: 75%;
 }
 
+.w20{
+    width: 23%;
+}
+
 .w23{
     width: 23%;
 }
@@ -680,7 +684,7 @@ footer{
 
 /*ABOUT.HTML*/
 .banner{
-    background-image:url("../imgs/bolsa-plantas.jpg");
+    background-image:url("/assets/imgs/livingMesaGrande.jpg");
     background-position:center;
     background-size: cover;
     background-blend-mode: darken;
@@ -706,6 +710,33 @@ footer{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: black;
+}
+
+.corazon{
+    width: 13%;
+    opacity: 0.4;
+    margin-left: 10%;
+    margin-right: 4%;
+}
+
+.corazonTexto{
+    padding-top: 6%;
+}
+
+.tresCajas{
+    min-height: 24vh;   
+}
+
+.flechaGirada{
+    transform: scaleX(-1);
+}
+
+.paddingL{
+    padding-left: 4%;
+}
+
+.paddingR{
+    padding-right: 4%;
 }
 
 
