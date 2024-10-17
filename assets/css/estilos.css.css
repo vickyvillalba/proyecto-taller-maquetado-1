@@ -139,6 +139,7 @@
 .chicos{ /*textos chiquitos de colores*/
     font-family: "Open Sans";
     font-size: 0.6em;
+    font-weight: 600;
     text-transform: uppercase;
     margin-top: 1.4em;
     margin-bottom: 1em;
@@ -147,7 +148,8 @@
 
 .titPrincipal{
     font-family: droidSerif;
-    font-size: 3.5em;
+    font-size: 4em;
+    font-weight: 200;
 }
 
 .titulos{
@@ -328,10 +330,6 @@ img{
     color: gray;
 }
 
-.lineaChicaNegra{
-    border-bottom: 2px solid black;
-    width: 2em;
-}
 .italic{
     font-style: italic;
 }
@@ -340,6 +338,8 @@ img{
     font-family: "Open Sans";
     font-weight: 600;
 }
+
+
 
 /*ÍCONOS*/
 
@@ -405,7 +405,7 @@ nav ul li a:hover{
 
 main section{
     margin: 0 auto;
-    margin-bottom: 1.4em;
+    margin-bottom: 7em;
 }
 
 .slider{
@@ -421,6 +421,7 @@ main section{
     background-color: rgb(255, 255, 255);
     padding: 14px;
     margin-right: 0.6em;
+    width: fit-content;
 }
 
 /*PORTFOLIO*/ 
@@ -433,10 +434,6 @@ main section{
 .tercio{
     height: 40%;
     margin-top: 4em;
-}
-
-.imgTercio {
-    border: 3px solid red;
 }
 
 /*textos chicos de colores*/ 
@@ -738,7 +735,6 @@ footer{
 .paddingR{
     padding-right: 4%;
 }
-
 
 
 
