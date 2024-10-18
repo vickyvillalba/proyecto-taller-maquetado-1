@@ -70,6 +70,10 @@
     width: 40%;
 }
 
+.w48-7{
+    width: 48.7%;
+}
+
 .w32{
     width: 32%;
 }
@@ -111,7 +115,7 @@
 }
 
 .hForms{
-    height: 3em;
+    height: 3.5em;
 }
 
 .h20{
@@ -120,6 +124,14 @@
 
 .h24{
     height: 24em;
+}
+
+.h80{
+    height: 80%;
+}
+
+.h90{
+    height: 90%;
 }
 
 .h100{
@@ -339,12 +351,27 @@ img{
     font-weight: 600;
 }
 
-
-
 /*ÍCONOS*/
 
 .hIconos{
-    height: 2.5em;
+    height: 2em;
+}
+
+.cajaIconos{
+    right: 0;
+    bottom: 70;
+}
+
+.cajaIconos a:hover{
+    background-color: #dad8d86c;
+}
+
+.paddingIconos{
+    padding: 0.5em;
+}
+
+.fondoBlanco{
+    background-color: white;
 }
 
 /*FORMS*/
@@ -359,7 +386,7 @@ img{
 
 ::placeholder{
     font-family: "Open Sans";
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 input{
@@ -634,6 +661,10 @@ main section{
 
 /*LETS GET IN TOUCH*/
 
+.hIconos2{
+    height: 2.1em;
+}
+
 /*FROM OUR BLOG*/
 .design{
     color: #9689ce; 
@@ -735,6 +766,9 @@ footer{
 .paddingR{
     padding-right: 4%;
 }
+
+
+
 
 
 
