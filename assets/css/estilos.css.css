@@ -312,6 +312,10 @@ img{
     object-fit: cover;
 }
 
+.fitContent{
+    width: fit-content;
+}
+
 .separarLetras{
     letter-spacing: 0.25em;
 }
@@ -340,6 +344,10 @@ img{
 
 .colorGris{
     color: gray;
+}
+
+.fondoVioleta{
+    background-color: #9689ce;
 }
 
 .italic{
@@ -697,7 +705,12 @@ footer{
 }
 
 .submitFlecha{
-    background-image: url(/assets/imgs/iconos/flecha.svg) no-repeat;
+    width: 4em;
+    height: auto;
+    background-image: url(/assets/imgs/iconos/flecha.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.8em; 
 }
 
 .navs{
@@ -711,13 +724,27 @@ footer{
 }
 
 /*ABOUT.HTML*/
-.banner{
-    background-image:url("/assets/imgs/livingMesaGrande.jpg");
+.bannerAbout{
+    background-image:url("/assets/imgs/livingMesaGrande.jpg"); 
+}
+
+.caract-Banner{
     background-position:center;
     background-size: cover;
     background-blend-mode: darken;
-    background-color: rgba(0,0,0,0.3);  
+    background-color: rgba(0,0,0,0.3);
 }
+
+.achicarFlecha{
+    width: 0.8em;
+}
+
+.ruta{
+    width: 8em;
+    bottom: 0;
+    right: 0;
+}
+
 .fotos4 img{
     object-fit: cover;
 }
@@ -766,7 +793,6 @@ footer{
 .paddingR{
     padding-right: 4%;
 }
-
 
 
 
