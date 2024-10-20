@@ -350,6 +350,10 @@ img{
     background-color: #9689ce;
 }
 
+.fondoNegro{
+    background-color: black;
+}
+
 .italic{
     font-style: italic;
 }
@@ -690,10 +694,6 @@ main section{
 }
 
 /*FOOTER*/
-
-footer{
-    background-color: #151515;
-}
 
 .lineaGris{
     border-bottom: 0.001px solid rgb(210, 209, 209);
