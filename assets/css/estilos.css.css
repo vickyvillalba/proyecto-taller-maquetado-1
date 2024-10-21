@@ -346,6 +346,7 @@ img{
     color: gray;
 }
 
+
 .fondoVioleta{
     background-color: #9689ce;
 }
@@ -793,6 +794,14 @@ main section{
 .paddingR{
     padding-right: 4%;
 }
+
+/*SINGLE WORK*/
+
+.bannerSingle{
+    background-image: url(/assets/imgs/cuadro.jpg);
+}
+
+
 
 
 
