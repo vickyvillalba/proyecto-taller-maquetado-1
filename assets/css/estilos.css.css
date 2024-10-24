@@ -126,6 +126,18 @@
     height: 24em;
 }
 
+.h8{
+    height: 8em;
+}
+
+.h50{
+    height: 50%;
+}
+
+.h60{
+    height: 60%;
+}
+
 .h80{
     height: 80%;
 }
@@ -334,6 +346,9 @@ img{
     font-style: italic;
     margin-left: 0.4em;
 }
+
+/*COLORES*/
+
 .colorNegro{
     color: black;
 }
@@ -346,6 +361,10 @@ img{
     color: gray;
 }
 
+.colorNaranja{
+    color: orange;
+}
+
 
 .fondoVioleta{
     background-color: #9689ce;
@@ -355,14 +374,25 @@ img{
     background-color: black;
 }
 
+.fondoBlanco{
+    background-color: white;
+}
+
 .italic{
     font-style: italic;
 }
+
+/*BOTONES*/
 
 .fontBotones{
     font-family: "Open Sans";
     font-weight: 600;
 }
+
+.botonRedondo{
+    border-radius: 30%;
+}
+
 
 /*ÍCONOS*/
 
@@ -412,6 +442,14 @@ input{
     height: 3em;
     border: none;
 }
+
+/*LINEAS*/
+
+.linea{
+    border-bottom: solid 0.16em;
+    width: 6em;
+}
+
 
  
 /*FIN CLASES ÚTILES*/
@@ -529,45 +567,14 @@ main section{
 }
 
 /*SECTION "MUST HAVE"*/
-.stylish{
-    color: #888888;
-    margin-bottom: 2em;
-}
-.texto{
-    width: 40%;
-}
-.firma{
-    margin-top: 1.6em;
-    width: 12em;
-}
-.imagen{
-    width: 50%;
-    height: auto;
-}
-.cabina{
-    height: auto;
-    width: 100% ;
-}
-.sectionmust{
-    height: 25em;
-    align-items: center;
-}
-.must{
-    margin-bottom:0.6em;
-    line-height: 1.2em;
-}
+
+
 
 /*SECTION "SIMPLE"*/
 .simple{
     height: 20em;
-    justify-content: center;
-    align-items: center;
 }
-.lineaGris{
-    border: 1.2px solid #bfbfbf;
-    width: 6em;
-    margin-bottom: 1em;
-}
+
 
 .divSimple{
     height: 20em;
@@ -582,10 +589,6 @@ main section{
 
 
 /*SECTION "POWERFUL"*/
-.powerful{
-    height: 25em;
-    align-items: center;
-}
 .titulos strong{
     font-style: italic;
     margin-right: 0.4em;
@@ -608,13 +611,6 @@ main section{
     margin-right: 0.4em;
 }
 
-.lineaNaranja1{
-    border: 1.2px solid orange;
-    width: 6em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
 .redonda{
     width: 5em;
     border-radius: 50%;
@@ -629,11 +625,6 @@ main section{
     font-size: 1.5em;
     line-height: 1.7em;
     text-align: center;
-}
-
-.lineaNaranja05{
-    border: 0.5px solid orange;
-    width: 7em;
 }
 
 /*LETS GET IN TOUCH*/
@@ -683,12 +674,6 @@ main section{
     color: #9689ce; 
 }
 
-.lineaNegra{
-    margin-top: 1.4em;
-    border-bottom: 0.16em solid black;
-    width: 6.25em;
-}
-
 .lineaTercio{
     border-bottom: 0.1em solid rgb(163, 163, 163);
     width: 100%;
@@ -727,6 +712,8 @@ main section{
 /*ABOUT.HTML*/
 .bannerAbout{
     background-image:url("/assets/imgs/livingMesaGrande.jpg"); 
+    background-position:center;
+    background-size: cover;
 }
 
 .caract-Banner{
@@ -799,6 +786,13 @@ main section{
 
 .bannerSingle{
     background-image: url(/assets/imgs/cuadro.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.viewLive{
+    top: 85%;
+    left: 90%;
 }
 
 
