@@ -94,6 +94,10 @@
     width: 23%;
 }
 
+.w12_5{
+    width: 12.5%;
+}
+
 .w50{
     width: 50%;
 }
@@ -795,8 +799,12 @@ main section{
     left: 90%;
 }
 
-
-
+/*CONTACT*/
+.bannerContact{
+    background-image:url("/assets/imgs/fotografa.jpg"); 
+    background-position:center;
+    background-size: cover;
+}
 
 
 
